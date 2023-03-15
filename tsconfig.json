@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "tmp",
+    "types": [
+      "cypress",
+      "node",
+      "cypress-xpath"
+    ],
+  },
+  "include": [
+    "**/*.ts",
+    "../node_modules/cypress",
+    "src/**/*.d.ts",
+    "node_modules/@types/node/"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
